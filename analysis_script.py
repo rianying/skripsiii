@@ -12,7 +12,7 @@ from statsmodels.stats.api import het_goldfeldquandt
 import pandas as pd
 
 # Load the data
-data = pd.read_csv('/mnt/data/skripsi.csv')
+data = pd.read_csv('skripsi.csv')
 
 # Define the independent and dependent variables
 independent_vars = ['Harga 1', 'Harga 2', 'Harga 3', 'Harga 4', 'Harga 5', 'Kualitas 1', 'Kualitas 2', 'Kualitas 3', 'Kualitas 4', 'Kualitas 5', 'Sistem 1', 'Sistem 2', 'Sistem 3', 'Sistem 4']
